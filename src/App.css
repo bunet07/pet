@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+body{
+  background-image: url('https://media.istockphoto.com/id/1306641965/pt/foto/cobberdog-pup-on-white-background.jpg?s=612x612&w=0&k=20&c=Gx87f89O2EoQ6961yOY8wikwG98IfgJdYvhxjz9-rjc=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.app{
+  width: 522px;
+  height: 700px;
+  border-radius: 35px;
+  background: #eee;
+  margin-left: 1150px;
+  padding-top: 5px;
+  margin-top: 100px;
+}
+.localizar{
+  margin-top: 40px;
+  margin-left: 95px;
+  color: #000;
+}
+.COR{
+color: #000;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 19px;
+margin-top: 50px;
+position: absolute;
+align-items: center;
+}
+.ESPECIFICAÇÕES{
+  color: #000;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 19px;
+margin-top: 160px;
+position: absolute;
+align-items: center;
+}
+ 
+.LOCALIZAÇÃO{
+  color: #000;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 19px;
+margin-top: 375px;
+}
+.busca{
+margin-top:90px ;
+margin-left: 19px;
+position: absolute;
+border-radius: 30px;
+background: #FFF;
+display: inline-flex;
+padding: 10px 72px 21px 35px;
+align-items: center;
+color: #000;
+}
+.busca2{
+  margin-top:200px ;
+  margin-left: 19px;
+  position: absolute;
+  border-radius: 30px;
+  background: #FFF;
+  display: inline-flex;
+  padding: 10px 72px 21px 35px;
+  align-items: center;
+  color: #000;
+  }
+  .busca3{
+    margin-top:10px ;
+    margin-left:19px;
+    position: absolute;
+    border-radius: 30px;
+    background: #FFF;
+    display: inline-flex;
+    padding: 10px 72px 21px 35px;
+    align-items: center;
+    color: #000;
+   
+    }
+.busca4{
+      margin-top:310px ;
+      margin-left: 20px;
+      position: absolute;
+      border-radius: 30px;
+      background: #FFF;
+      display: inline-flex;
+      padding: 10px 72px 21px 35px;
+      align-items: center;
+      color: #000;
+}
+.url{
+  color: #000;
+font-family: 'Dela Gothic One';
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 19px;
+margin-top: 270px;
+position: absolute;
+}
+.botao{
+  background-color: #FFF;
+  color: #000;
+  border-radius:200px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 12%;
+}
+.resultados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+ 
+.item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+ 
+.item:hover {
+  transform: scale(1.05);
+}
+ 
+.imagem {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+ 
+.detalhes {
+  color: #333;
+}
